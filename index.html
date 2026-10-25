@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+    <h1>CSS Positioning Practice</h1>
+</header>
+
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="home" class="section home">
+        <h2>Welcome</h2>
+        <p>
+            This webpage demonstrates CSS positioning properties:
+            sticky, fixed, absolute, relative, and z-index.
+        </p>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <h3>Featured Card</h3>
+            <p>
+                This badge is positioned absolutely inside a
+                relatively positioned card.
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <p>
+            The navigation bar stays at the top while scrolling
+            because it uses position: sticky.
+        </p>
+    </section>
+
+    <section id="services" class="section services">
+        <h2>Our Services</h2>
+        <p>
+            We demonstrate how CSS positioning helps create
+            organized and responsive web layouts.
+        </p>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p>
+            Use the floating help button at the bottom-right
+            corner to access the contact section.
+        </p>
+    </section>
+</main>
+
+<a class="floating-button" href="#contact" aria-label="Get help">
+    Help
+</a>
+
+<footer>
+    <p>CSS Positioning Practice</p>
+</footer>
+
+</body>
+</html>
