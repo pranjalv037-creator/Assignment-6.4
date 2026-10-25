@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+color: #1e293b;
+line-height: 1.6;
+}
+
+header {
+padding: 20px;
+text-align: center;
+background-color: #dbeafe;
+}
+
+header h1 {
+margin: 0;
+}
+
+.navbar {
+position: sticky;
+top: 0;
+z-index: 1000;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 25px;
+padding: 15px;
+background-color: #1e293b;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.navbar a:hover {
+color: #93c5fd;
+}
+
+.section {
+min-height: 400px;
+padding: 50px 25px;
+text-align: center;
+}
+
+.home {
+background-color: #f8fafc;
+}
+
+.about {
+background-color: #dbeafe;
+}
+
+.services {
+background-color: #dcfce7;
+}
+
+.contact {
+background-color: #f3e8ff;
+}
+
+.card {
+position: relative;
+max-width: 350px;
+margin: 40px auto;
+padding: 35px 20px 20px;
+border: 2px solid #64748b;
+border-radius: 12px;
+background-color: white;
+box-shadow: 0 4px 10px #00000015;
+}
+
+.badge {
+position: absolute;
+top: -12px;
+right: 15px;
+z-index: 2;
+padding: 5px 12px;
+color: white;
+background-color: #dc2626;
+border-radius: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.floating-button {
+position: fixed;
+right: 20px;
+bottom: 20px;
+z-index: 1100;
+padding: 14px 22px;
+color: white;
+background-color: #2563eb;
+text-decoration: none;
+border-radius: 30px;
+box-shadow: 0 4px 10px #00000030;
+}
+
+.floating-button:hover {
+background-color: #1d4ed8;
+}
+
+footer {
+padding: 20px;
+text-align: center;
+color: white;
+background-color: #1e293b;
+}
